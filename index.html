@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <title> Google </title>
+        <link 
+            href="./image/search.png" 
+            type="image/x-icon"
+        >
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class='container'>
+            <div id="blackout" onclick="closeMenu()"></div>   
+            <div class='header'>
+                <a class='mail' href='https://www.google.com/intl/ru/gmail/about/#'> Почта </a>
+                <a class='images' href='https://www.google.by/imghp'> Картинки </a>
+                <img 
+                    type='button' 
+                    class='drop_menu' 
+                    src='./image/grid.svg'
+                    title='Приложения гугл'
+                    onclick="showBlock()"
+                >
+                <div class='menu' id='menu'>
+                    <div class='google_apps'>
+                        <a class='google_app' href='https://myaccount.google.com/intro'>
+                            <img class='app_img' src='./image/figure.svg'></span>
+                            <span class='app_desription'> Аккаунт </span>
+                        </a>
+                        <a class='google_app' href='https://www.google.by/webhp'>
+                            <img class='app_img' src='./image/facebook.svg'></span>
+                            <span class='app_desription'> Поиск </span>
+                        </a>
+                        <a class='google_app' href='https://www.google.by/maps'>
+                            <img class='app_img' src='./image/location.svg'></span>
+                            <span class='app_desription'> Карты </span>
+                        </a>
+                        <a class='google_app' href='https://www.youtube.com/'>
+                            <img class='app_img' src='./image/youtube.svg'></span>
+                            <span class='app_desription'> YouTube </span>
+                        </a>
+                        <a class='google_app' href='https://play.google.com/store'>
+                            <img class='app_img' src='./image/googleplay.png'></span>
+                            <span class='app_desription'> Play </span>
+                        </a>
+                        <a class='google_app' hreg='https://accounts.google.com/ServiceLogin/signinchooser'>
+                            <img class='app_img' src='./image/gmail.svg'></span>
+                            <span class='app_desription'> Gmail </span>
+                        </a>
+                        <a class='google_app' href='https://apps.google.com/meet'>
+                            <img class='app_img' src='./image/meet.svg'></span>
+                            <span class='app_desription'> Meet </span>
+                        </a>
+                        <a class='google_app' href='https://contacts.google.com/'>
+                            <img class='app_img' src='./image/contacts.png'></span>
+                            <span class='app_desription'> Контакты </span>
+                        </a>
+                        <a class='google_app' href='https://drive.google.com/drive/my-drive'>
+                            <img class='app_img' src='./image/google-drive.svg'></span>
+                            <span class='app_desription'> Диск </span>
+                        </a>
+                        <a class='google_app' href='https://calendar.google.com/calendar/'>
+                            <img class='app_img' src='./image/google-calendar.svg'></span>
+                            <span class='app_desription'> Календарь </span>
+                        </a>
+                        <a class='google_app' href='https://translate.google.by/'>
+                            <img class='app_img' src='./image/translate.svg'></span>
+                            <span class='app_desription'> Переводчик </span>
+                        </a>
+                        <a class='google_app' href='https://photos.google.com/'>
+                            <img class='app_img' src='./image/photo.svg'></span>
+                            <span class='app_desription'> Фото </span>
+                        </a>
+                        <a class='google_app' href='https://duo.google.com/'>
+                            <img class='app_img' src='./image/google-duo.svg'></span>
+                            <span class='app_desription'> Duo </span>
+                        </a>
+                    </div>
+                    <div class='separator'></div>
+                    <div class='google_apps'>
+                        <a class='google_app' href='https://docs.google.com/u/0/'>
+                            <img class='app_img' src='./image/google-docs.svg'></span>
+                            <span class='app_desription'> Документы </span>
+                        </a>
+                        <a class='google_app' href='https://docs.google.com/spreadsheets/u/0/'>
+                            <img class='app_img' src='./image/google-sheets.svg'></span>
+                            <span class='app_desription'> Таблицы </span>
+                        </a>
+                        <a class='google_app' href='https://docs.google.com/presentation/u/0/'>
+                            <img class='app_img' src='./image/documents.svg'></span>
+                            <span class='app_desription'> Презентации </span>
+                        </a>
+                        <a class='google_app' href='https://www.blogger.com/about'>
+                            <img class='app_img' src='./image/blog.svg'></span>
+                            <span class='app_desription'> Blogger </span>
+                        </a>
+                        <a class='google_app' href='https://hangouts.google.com/'>
+                            <img class='app_img' src='./image/world.svg'></span>
+                            <span class='app_desription'> Планета </span>
+                        </a>
+                        <a class='google_app' href='https://keep.google.com/'>
+                            <img class='app_img' src='./image/google-wallet.svg'></span>
+                            <span class='app_desription'> Подборки </span>
+                        </a>
+                        <a class='google_app' href='https://jamboard.google.com/'>
+                            <img class='app_img' src='./image/jamboard.svg'></span>
+                            <span class='app_desription'> Jamboard </span>
+                        </a>
+                        <a class='google_app' href='https://earth.google.com/web'>
+                            <img class='app_img' src='./image/google-hangouts.svg'></span>
+                            <span class='app_desription'> Hangoust </span>
+                        </a>
+                        <a class='google_app' href='https://www.google.by/save'>
+                            <img class='app_img' src='./image/google-keep.svg'></span>
+                            <span class='app_desription'> Google keep </span>
+                        </a>
+                        <a class='google_app' href='https://artsandculture.google.com/'>
+                            <img class='app_img' src='./image/theater.svg'></span>
+                            <span class='app_desription'> Google Art </span>
+                        </a>
+                    </div>  
+                    <div class='footer_adds'>
+                        <a href='https://about.google/intl/ru/products' class='another_adds'>
+                            Другие приложения и продукты от Google
+                        </a>
+                    </div>
+                </div>
+                <form action="https://accounts.google.com/">
+                    <button class='login' type='submit'>
+                        Войти
+                    </button>
+                </form>
+            </div>
+            <div class='main'>
+                <img alt='logo' class='logo' src='./image/google.png'>
+                <div class='main_input_block'>
+                    <img alt='search' class='input_icon_search' src='./image/search.svg'>
+                    <input 
+                        id='main_input' 
+                        class='main_input' 
+                        type="text" 
+                        title='Поиск'
+                    > 
+                    <div class='cross_block' id='cross_block'> 
+                        <img 
+                            alt='cross' 
+                            class='input_cross' 
+                            src='./image/close.svg'
+                            onclick="cleanInput()"   
+                        >
+                        <span class='horiz_line'></span> 
+                    </div>
+                        <div class='image_block'>
+                            <img alt='keyboard' class='input_keyboard_search' src='./image/keyboard.png'>
+                            <img alt='microphone' class='input_micro_search' src='./image/microphone.svg'>
+                        </div>
+                </div>
+            <div class='button_block'>
+                <button class='grey_main_button' onclick='sendReq()'> Поиск в Google</button>
+                <form action="https://www.google.com/doodles">
+                    <button type='submit' class='grey_main_button'> Мне повезёт! </button>
+                </form>
+            </div>
+            <div class='lang_switcher'>
+                Сервисы Google доступны на разных языках:
+                <a href='https://www.google.by/' class='link_switcher'> Белорусская </a>
+            </div>
+            </div>
+            <div class='footer'> 
+            <div class='grey_strip'>
+                <span class='country_grey'> Беларусь </span>
+            </div>
+            <div class='grey_strip'>
+                <div class='offers'> 
+                    <a 
+                        class='footer_list' 
+                        href='https://ads.google.com/'
+                    > 
+                    Реклама 
+                    </a>
+                    <a 
+                        class='footer_list' 
+                        href='https://www.google.by/intl/ru/services/'
+                    > 
+                    Для бизнеса 
+                    </a>
+                    <a 
+                        class='footer_list' 
+                        href='https://about.google/'
+                    > 
+                    Всё о Google 
+                    </a>
+                    <a 
+                        class='footer_list' 
+                        href='https://www.google.com/search/howsearchworks/'
+                    > 
+                    Как работает Google поиск 
+                    </a>
+                </div>
+                <div class='conditions'> 
+                    <a 
+                        class='footer_list' 
+                        href='https://policies.google.com/privacy'
+                    > 
+                    Конфиденциальность 
+                    </a>
+                    <a 
+                        class='footer_list'
+                        href='https://policies.google.com/terms'
+                    >
+                    Условия 
+                    </a>
+                    <a 
+                        class='footer_list' 
+                        href='https://www.google.by/preferences'
+                    > 
+                    Настройки 
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
